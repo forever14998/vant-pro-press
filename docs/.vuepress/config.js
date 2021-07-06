@@ -1,39 +1,21 @@
 module.exports = {
-    title: 'Hello VuePress',
-    description: 'Just playing around',
-    head: [
-        ['link', {rel: 'icon', href: '/logo.png'}]
-    ],
-    plugins: [],
-    themeConfig: {
-        lastUpdated: false,
-        sidebar: {
-            "/view/guide/": [
-                {
-                    title: '生活测试1',
-                    collapsable: false,
-                    children: [
-                        { title: '生活测试01', path: 'plugins/' },
-                        { title: '生活测试02', path: 'plugins/' },
-                        { title: '生活测试03', path: 'plugins/' },
-                    ]
-                },{
-                    title: '生活测试2',
-                    collapsable: false,
-                    children: [
-                        { title: '生活测试01', path: 'plugins/' },
-                        { title: '生活测试02', path: 'plugins/' },
-                        { title: '生活测试03', path: 'plugins/' },
-                    ]
-                }
-            ],
-        },
-        sidebarDepth: 2,//左侧导航显示的层级
-        nav: [
-            {text: 'Home', link: '/'},
-            {text: 'guide', link: '/view/guide/'},
-            {text: 'External', link: 'https://google.com'},
-        ],
-        displayAllHeaders: true
-    },
-}
+  theme:"antdocs",
+  title: 'uniVantPro',
+  description: " vant 组件的多端解决方案",
+  base: "/",
+  head: [
+    ["link",{ rel: "icon",href: "/assets/logo.png" }]
+  ],
+  markdown: {
+    lineNumbers: false,
+  },
+  themeConfig: {
+    smoothScroll: true,
+    nav: require("./config/nav"),
+    sidebar: require("./config/sidebar"),
+    lastUpdated: "Last Updated",
+    repo: "https://github.com/forever14998/uni-vant-pro",
+    editLinks: false,
+    logo: '/assets/logo.png',
+  },
+};
