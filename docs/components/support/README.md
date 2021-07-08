@@ -9,3 +9,6 @@ actionLink: /
 footer: Copyright © Xooooooooooom - 2018
 ---
 ```
+<ClientOnly>
+  <mobile-devices></mobile-devices>
+</ClientOnly>

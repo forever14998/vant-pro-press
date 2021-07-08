@@ -47,6 +47,6 @@ uni-app 社区内，只有对 vant 单端兼容的版本，UniVantPro 由此而�
 ​
 
 <ClientOnly>
-  <my-demo></my-demo>
+  <mobile-devices></mobile-devices>
 </ClientOnly>
 

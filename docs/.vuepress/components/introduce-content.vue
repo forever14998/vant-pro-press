@@ -9,13 +9,15 @@
   </div>
 </template>
 <script>
+import logoImage from '../../.vuepress/public/assets/h5logo.png'
+import wxLogoImage from '../../.vuepress/public/assets/wx-logo.jpg'
 export default {
   data() {
     return {
       itemList: [
-          {text:'H5',image:'https://www.hualigs.cn/image/60e45639d3b21.jpg' },
-          {text:'微信小程序',image:'https://www.uviewui.com/common/weixin_mini_qrcode.png' },
-          {text:'微信小程序',image:'https://www.hualigs.cn/image/60e45639d3b21.jpg' }
+          {text:'H5',image: logoImage },
+          {text:'微信小程序',image:wxLogoImage },
+          {text:'微信小程序',image:wxLogoImage }
           ]
     };
   },
@@ -25,7 +27,7 @@ export default {
 </script>
 <style scoped>
 .content{
-  width: 80%;
+  width: 100%;
   margin: 3rem 0;
   display: flex;
   justify-content: space-around;

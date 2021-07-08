@@ -13,7 +13,6 @@ module.exports = {
     smoothScroll: true,
     nav: require("./config/nav"),
     sidebar: require("./config/sidebar"),
-    lastUpdated: "Last Updated",
     repo: "https://github.com/forever14998/uni-vant-pro",
     editLinks: false,
     logo: '/assets/logo.png',

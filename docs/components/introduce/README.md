@@ -37,6 +37,6 @@ UniVantPro 本项目基于 [MIT](https://zh.wikipedia.org/wiki/MIT%E8%A8%B1%E5%8
 ​
 
 <ClientOnly>
-  <my-demo></my-demo>
+  <mobile-devices></mobile-devices>
 </ClientOnly>
 
