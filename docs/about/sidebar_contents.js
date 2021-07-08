@@ -1,5 +1,5 @@
 module.exports = [
-	"/category/",
+	"/about/",
 	// "article-1",
 	// "article-2"
 ];

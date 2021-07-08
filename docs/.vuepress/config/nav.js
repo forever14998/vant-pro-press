@@ -12,6 +12,6 @@ module.exports = [
   // Nav 3
   {
     text: "关于我们",
-    link: "/category/"
+    link: "/about/"
   },
 ];
