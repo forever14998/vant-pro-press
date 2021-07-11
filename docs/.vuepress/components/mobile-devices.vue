@@ -1,7 +1,8 @@
+<!--手机 UI 展示 -->
 <template>
   <div class="demo-model">
     <div class="model-content">
-      <iframe src="https://static-bc4ee307-93e3-4838-bfc9-3ff13da43a15.bspapp.com/#/" width="375" height="1000px"></iframe>
+      <iframe :src="'https://static-bc4ee307-93e3-4838-bfc9-3ff13da43a15.bspapp.com/#/' + page" width="375" height="1000px"></iframe>
     </div>
   </div>
 </template>
@@ -11,6 +12,12 @@ export default {
   data() {
     return {
     };
+  },
+  props:{
+    page: {
+      type: String,
+      default: ''
+    },
   },
   methods: {
   }

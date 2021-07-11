@@ -1,3 +1,4 @@
+<!--介绍页 设备图片-->
 <template>
   <div >
    <div class="content">

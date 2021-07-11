@@ -15,6 +15,6 @@ module.exports = {
     sidebar: require("./config/sidebar"),
     repo: "https://github.com/forever14998/uni-vant-pro",
     editLinks: false,
-    logo: '/assets/logo.png',
+    logo: '/assets/logo.png'
   },
 };
