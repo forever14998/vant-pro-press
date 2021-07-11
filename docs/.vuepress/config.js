@@ -1,6 +1,6 @@
 module.exports = {
   theme:"antdocs",
-  title: 'uniVantPro',
+  title: 'vantPro',
   description: " vant 组件的多端解决方案",
   base: "/",
   head: [

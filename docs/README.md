@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /assets/logo.png
-heroText: uniVantPro
+heroText: vantPro
 tagline:  基于 vant 组件库，快速开发首选框架
 actionText: 快速上手 →
 actionLink: /zh/guide/

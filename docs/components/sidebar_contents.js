@@ -5,8 +5,6 @@ module.exports = [
         // 必要的，分组的子项目
         children: [{
             path: "/components/", title: '介绍'
-        }, {
-            path: "/components/started/", title: '快速上手'
         }],
     },
     {
