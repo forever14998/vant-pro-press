@@ -1,4 +1,4 @@
-<center><img src="https://static-7896494f-63ee-4a91-a07c-1fcd1d73002f.bspapp.com/assets/logo.png"></img> </center>
+<center><img src="http://doc.vantpro.com/assets/logo.png"></img> </center>
 <center><font face="黑体" size=8>vantPro</font></center>
 <center><font  size=4>基于 vant 多端适配版本</font></center>
 
@@ -13,7 +13,7 @@ vantPro 多端适配版本发布，现支持 日期选择、弹出、动画组�
 
 ---
 
-### [文档地址：vantProPress](https://static-7896494f-63ee-4a91-a07c-1fcd1d73002f.bspapp.com/)
+### [文档地址：vantProPress](http://doc.vantpro.com/)
 
 
 ## 预览
@@ -21,9 +21,9 @@ vantPro 多端适配版本发布，现支持 日期选择、弹出、动画组�
 ---
 
 <center>
-<img src="https://static-7896494f-63ee-4a91-a07c-1fcd1d73002f.bspapp.com/assets/h5logo.png" width="300"></img> 
+<img src="http://doc.vantpro.com/assets/h5logo.png" width="300"></img> 
 <span style="display: inline-block; width: 240px"></span>
-<img src="https://static-7896494f-63ee-4a91-a07c-1fcd1d73002f.bspapp.com/assets/img/wx-logo.b60e91fb.jpg" width="300"></img> 
+<img src="http://doc.vantpro.com/assets/img/wx-logo.b60e91fb.jpg" width="300"></img> 
 </center>
 
 
@@ -31,7 +31,7 @@ vantPro 多端适配版本发布，现支持 日期选择、弹出、动画组�
 
 ---
 
-> 在使用此组件前，假设您已经安装了 scss 依赖，hx 版本 版本为3.0以上，支持 easycom 规则 引入组件。
+> 在使用此组件前，假设您已经安装了 scss 依赖，hx 版本为 >= 3.1.22，支持 easycom 规则 引入组件。
 
 1. main.js 引入
 ```javascript

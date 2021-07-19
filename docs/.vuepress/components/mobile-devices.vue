@@ -2,7 +2,7 @@
 <template>
   <div class="demo-model">
     <div class="model-content">
-      <iframe :src="'https://static-bc4ee307-93e3-4838-bfc9-3ff13da43a15.bspapp.com/#/' + page" width="375" height="1000px"></iframe>
+      <iframe :src="'http://h5.vantpro.com/#/' + page" width="375" height="1000px"></iframe>
     </div>
   </div>
 </template>
@@ -45,7 +45,7 @@ export default {
 
     box-sizing: border-box;
     overflow-y: auto;
-    background-image: url(https://www.uviewui.com/common/iPhoneX_model.png);
+    background-image: url(http://doc.vantpro.com/assets/prototype.png);
     background-repeat: no-repeat;
     background-size: 100%;
     border-radius: 30px;

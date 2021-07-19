@@ -12,9 +12,8 @@ features:
   details: 享受 Vue + uni-app 的丝滑开发体验，Vue 的语法与 uni-app 兼容多端平台。
 - title: 高性能
   details: 部分组件优化后发布，更高的定制化组件，组件属性明确，进行细致化处理。
-footer: MIT Licensed | Copyright © 2021 uniVantPro | 鲁ICP网备案 ****** 号
+footer: MIT Licensed | Copyright © 2021 uniVantPro | 鲁ICP备19043294号-3
 ---
-
 <ClientOnly>
 <home-content></home-content>
 </ClientOnly>
